@@ -1,1 +1,2 @@
 # web-dev-course-SSU-2021
+Task 1: https://macr0pyre.github.io/web-dev-course-SSU-2021/Task-01_HTML-Basics/index.html
