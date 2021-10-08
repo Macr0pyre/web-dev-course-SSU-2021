@@ -19,9 +19,7 @@ p {
 }
 
 input {
-    border-style: solid;
-    border-color: red;
-    border-width: 3px;
+    border: 3px solid red;
 }
 
 .hello {
@@ -29,9 +27,7 @@ input {
 }
 
 #special {
-    border-style: solid;
-    border-color: green;
-    border-width: 2px;
+    border: 2px solid green;
 }
 
 div p {
@@ -47,9 +43,7 @@ div:nth-of-type(3) p {
 }
 
 div:nth-of-type(3) p:nth-of-type(2) {
-    border-style: solid;
-    border-color: white;
-    border-width: 5px;
+    border: 5px solid white;
 }
 
 div:nth-of-type(3) em {
