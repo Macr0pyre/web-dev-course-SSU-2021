@@ -53,6 +53,10 @@ body {
     text-align: center;
 }
 
+img {
+    width: 700px;
+}
+
 a:hover {
     color: darkcyan;
 }
