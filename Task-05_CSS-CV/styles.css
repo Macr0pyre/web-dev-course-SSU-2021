@@ -15,7 +15,8 @@ body {
 }
 
 header {
-  margin-top: 10px;
+  padding: 10px 0;
+  border-bottom: 3px solid purple;
 }
 
 table {
@@ -32,6 +33,10 @@ table td {
   width: 180px;
 }
 
+td {
+  overflow: auto;
+}
+
 section td:first-of-type {
   width: 13%;
 }
@@ -40,12 +45,6 @@ section hr {
   margin-left: 30px;
   margin-right: 30px;
   opacity: 0.2;
-}
-
-.header-hr {
-  border: none;
-  background-color: purple;
-  height: 3px;
 }
 
 h2 {
