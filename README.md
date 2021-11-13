@@ -11,4 +11,4 @@ Task 5: https://macr0pyre.github.io/web-dev-course-SSU-2021/Task-05_CSS-CV/index
 
 Task 6: https://macr0pyre.github.io/web-dev-course-SSU-2021/Task-06_JS-Basics/index.html
 
-Task 7: https://macr0pyre.github.io/web-dev-course-SSU-2021Task-07_JS-Advanced/index.html
+Task 7: https://macr0pyre.github.io/web-dev-course-SSU-2021/Task-07_JS-Advanced/index.html
