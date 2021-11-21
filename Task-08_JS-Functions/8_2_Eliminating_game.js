@@ -1,9 +1,9 @@
-function eleminate(quantity, step) {
-    let participants = Array.from(Array(quantity), (e, i) => i + 1);
+function eleminate(n, k) {
+    let participants = Array.from(Array(n), (e, i) => i + 1);
 
     for (let i = 1; participants.length > 1; i++) {
         let current = participants.shift();
-        !(i % step == 0) ? participants.push(current): i = 0;
+        !(i % k == 0) ? participants.push(current): i = 0;
     }
 
     return participants[0];
