@@ -14,3 +14,5 @@ Task 6: https://macr0pyre.github.io/web-dev-course-SSU-2021/Task-06_JS-Basics/in
 Task 7: https://macr0pyre.github.io/web-dev-course-SSU-2021/Task-07_JS-Advanced/index.html
 
 Task 8: https://macr0pyre.github.io/web-dev-course-SSU-2021/Task-08_JS-Functions/index.html
+
+Task 9: https://macr0pyre.github.io/web-dev-course-SSU-2021/Task-09_JS_and_DOM/index.html
