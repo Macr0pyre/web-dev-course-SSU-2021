@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Используйте функции</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="header">Здесь вы можете выбрать функцию и проверить ее работу!</h1>
+
+    <div class="section">
+        <h2>Подсчёт гласных</h2>
+        <p>Введите произвольную строку. Вам вернется число <strong>английских</strong> гласных в этой строке!</p>
+        <input id="counter-input" type="text" placeholder="Введите что-нибудь">
+        <div class="button-group">
+            <button class="counter-execute-button execute-button">Выполнить</button>
+        <button class="counter-reset-button reset-button">Очистить</button>
+        </div>
+        <div class="counter-result result"></div>
+    </div>
+
+    <div class="section">
+        <h2>Формула для (a+b)^n</h2>
+        <p>Введите целое число в диапазоне от -200 до 200. Вам вернется формула <strong>степени суммы</strong> для этого числа!</p>
+        <p><em>Если вы введете нецелое число, то выведется формула для целочисленной части числа.</em></p>
+        <input id="formula-input" type="number" placeholder="Введите число">
+        <div class="button-group">
+            <button class="formula-execute-button execute-button">Выполнить</button>
+            <button class="formula-reset-button reset-button">Очистить</button>
+        </div>
+        <div class="formula-result result"></div>
+    </div>
+
+    <div class="section">
+        <h2>Генератор паролей</h2>
+        <p>Нажмите на кнопку, чтобы получить случайный пароль!</p>
+        <div class="button-group">
+            <button class="generator-execute-button execute-button">Выполнить</button>
+            <button class="generator-reset-button reset-button">Очистить</button>
+        </div>
+        <div class="generator-result result"></div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
