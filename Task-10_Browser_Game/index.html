@@ -9,7 +9,45 @@
 
 <body>
     <canvas class="canvas"></canvas>
-    
+    <div class="in-game">
+        <h1>
+            Zombies killed: <span id="killedEnemiesCnt"></span>/<span id="enemiesCnt"></span>
+        </h1>
+    </div>
+
+    <div class="wrapper-start">
+        <div class="start-menu">
+            <h1>Kill all zombies</h1>
+            <p>Press WASD to control your character</p>
+            <p>Use the mouse to direct the shot</p>
+            <p>Click the mouse to shoot</p>
+            <p>Press space bar to pause/unpause the game</p>
+            <button class="start"><span class="text">Start</span></button>
+            <button class="exit-start"><span class="text">Exit</span></button>
+        </div>
+    </div>
+
+    <div class="wrapper-end">
+        <div class="end-menu">
+            <h1>Game Over</h1>
+            <button class="end-restart"><span class="text">Restart</span></button>
+            <button class="exit-end"><span class="text">Exit</span></button>
+        </div>
+    </div>
+
+    <div class="wrapper-win">
+        <div class="win-menu">
+            <h1>You won!</h1>
+            <button class="win-restart"><span class="text">Restart</span></button>
+            <button class="exit-win"><span class="text">Exit</span></button>
+        </div>
+    </div>
+
+    <div class="wrapper-pause">
+        <div class="pause">
+            <h1>Pause</h1>
+        </div>
+    </div>
 </body>
 
 </html>
